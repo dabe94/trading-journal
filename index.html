@@ -102,30 +102,7 @@
     
   </div>
 
-  <h2>Visualisierung (Demo)</h2>
-  <canvas id="profitChart" height="100"></canvas>
 
-  <script>
-    // Platzhalter für Chart-Demo
-    const ctx = document.getElementById('profitChart').getContext('2d');
-    const chart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['Trade 1', 'Trade 2', 'Trade 3'],
-        datasets: [{
-          label: 'Profit $',
-          data: [120, -50, 80],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
-      }
-    });
   </script>
 </body>
 </html>
